@@ -1,16 +1,18 @@
 * {
     overflow-y: hidden;
-    background-color: black;
-}
-
-h1 {
     color: white;
     font-family: "Nunito", sans-serif;
     text-align: center;
+}
+
+h1 {
     padding: 2%;
+    background-color: none;
+    font-size: 5vh;
 }
 
 canvas {
+    background-color: black;
     margin: 0;
     position: absolute;
     top: 0;
