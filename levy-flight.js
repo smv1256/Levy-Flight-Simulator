@@ -6,7 +6,7 @@ ctx.canvas.height = window.innerHeight;
 /* Monte Carlo method */
 const monteCarlo = () => {
     while (true) {
-        var r1 = Math.random();
+        const r1 = Math.random();
         const probability = r1;
         const r2 = Math.random();
         if (r2 > probability) { return r1; }
