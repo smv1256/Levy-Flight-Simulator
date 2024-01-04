@@ -7,8 +7,6 @@ So yeah.
 
 Fun fact, crossing pedestrians tend to follow a similar pattern =P
 
-Screenshot:
-
 ![image](https://github.com/SMVthe1st/Levy-Flight-Simulator/assets/117322465/6edf71b1-05b7-406f-8d79-42fa1d9c76c5)
 
 ---
