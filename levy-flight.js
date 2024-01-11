@@ -14,9 +14,7 @@ const monteCarlo = () => {
 };
 
 /* function to choose between two b'cuz I'm lazy */
-const choice = (op1, op2) => {
-    return (1 - Math.random() >= 0.5) ? op1 : op2;
-};
+const choice = (op1, op2) => { return 1 - Math.random() >= 0.5) ? op1 : op2 };
 
 /* create walker */
 class Walker {
@@ -43,9 +41,8 @@ class Walker {
 const w = new Walker();
 
 /* animate */
-const draw = () => {
+function draw () {
     w.all();
-
     setTimeout(draw, 0);
 }
 
